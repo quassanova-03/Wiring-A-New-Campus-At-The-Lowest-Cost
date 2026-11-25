@@ -1,0 +1,4 @@
+Windows-11-10.0.26300-SP0
+CPU: Intel64 Family 6 Model 186 Stepping 3, GenuineIntel
+Logical CPUs: 12
+Python: 3.12.6

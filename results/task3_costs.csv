@@ -1,0 +1,6 @@
+scenario,status,cables,total_length_m,extra_length_m
+Unrestricted MST,Tree found,35,3319.18,0.00
+Mandatory cable,Tree found,35,3319.18,0.00
+Forbidden cable,Tree found,35,3321.87,2.68
+Degree limit,Tree found,35,3319.18,0.00
+All three rules,Tree found,35,3321.87,2.68

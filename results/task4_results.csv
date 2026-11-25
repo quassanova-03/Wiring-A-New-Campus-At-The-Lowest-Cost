@@ -1,0 +1,15 @@
+graph_type,buildings,possible_routes,enumerated_count,kirchhoff_count,match
+complete,2,1,1,1,True
+ring,2,1,1,1,True
+complete,3,3,3,3,True
+ring,3,3,3,3,True
+complete,4,6,16,16,True
+ring,4,4,4,4,True
+complete,5,10,125,125,True
+ring,5,5,5,5,True
+complete,6,15,1296,1296,True
+ring,6,6,6,6,True
+complete,7,21,16807,16807,True
+ring,7,7,7,7,True
+complete,8,28,262144,262144,True
+ring,8,8,8,8,True

@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <style>.leaflet-container { background: white !important; }</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_30083ec9c4f0172cee5b675394c3dbe9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_30083ec9c4f0172cee5b675394c3dbe9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_30083ec9c4f0172cee5b675394c3dbe9 = L.map(
+                "map_30083ec9c4f0172cee5b675394c3dbe9",
+                {
+                    center: [19.132518058333332, 72.91636157777778],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 17,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var poly_line_52cfe0796ddd0227b1a51c8657b434cd = L.polyline(
+                [[19.1329094, 72.9152559], [19.1340744, 72.9151056]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_52cfe0796ddd0227b1a51c8657b434cd.bindTooltip(
+                `<div>
+                     Nandan Nilekani Main Building to Central Library: 130.50 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b68fd6e1751a18e369412adafd47d3c6 = L.polyline(
+                [[19.1340744, 72.9151056], [19.1340593, 72.9144918]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_b68fd6e1751a18e369412adafd47d3c6.bindTooltip(
+                `<div>
+                     Central Library to Desai Sethi School of Entrepreneurship: 64.50 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4cf876dd694d01296e26ee215238e3f1 = L.polyline(
+                [[19.1340744, 72.9151056], [19.1340743, 72.9158185]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_4cf876dd694d01296e26ee215238e3f1.bindTooltip(
+                `<div>
+                     Central Library to Mathematics Department: 74.89 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8b4d702cfba19b937e0bf2e6fee39ce5 = L.polyline(
+                [[19.1340743, 72.9158185], [19.1347301, 72.9157291]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_8b4d702cfba19b937e0bf2e6fee39ce5.bindTooltip(
+                `<div>
+                     Mathematics Department to Center for Systems and Control Engineering (SysCon): 73.52 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_82df8066035837cada8b27b65acb2fd4 = L.polyline(
+                [[19.1347301, 72.9157291], [19.1351755, 72.9157455]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_82df8066035837cada8b27b65acb2fd4.bindTooltip(
+                `<div>
+                     Center for Systems and Control Engineering (SysCon) to Advanced Centre for Research in Electronics: 49.56 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3c7a1236781bc91f990efe67242382ba = L.polyline(
+                [[19.1340743, 72.9158185], [19.1333583, 72.9164305]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_3c7a1236781bc91f990efe67242382ba.bindTooltip(
+                `<div>
+                     Mathematics Department to Mechanical Engineering Department: 102.33 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e3427449899f8f326771a537b17b8587 = L.polyline(
+                [[19.1333583, 72.9164305], [19.1326612, 72.9165103]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_e3427449899f8f326771a537b17b8587.bindTooltip(
+                `<div>
+                     Mechanical Engineering Department to Department of Civil engineering: 77.97 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e653ed05810dfd865ec1ac6269ffa6ff = L.polyline(
+                [[19.1326612, 72.9165103], [19.1319415, 72.9165559]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_e653ed05810dfd865ec1ac6269ffa6ff.bindTooltip(
+                `<div>
+                     Department of Civil engineering to Department of Electrical engineering: 80.17 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d16c388f315e179e60635d58907a88c5 = L.polyline(
+                [[19.1319415, 72.9165559], [19.1312162, 72.9166011]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_d16c388f315e179e60635d58907a88c5.bindTooltip(
+                `<div>
+                     Department of Electrical engineering to Department of Metalurgical and Material Science Engineering: 80.79 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2aa4fb3a769ed4fd8f15f38b4341b9b5 = L.polyline(
+                [[19.1312162, 72.9166011], [19.1310263, 72.9159094]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_2aa4fb3a769ed4fd8f15f38b4341b9b5.bindTooltip(
+                `<div>
+                     Department of Metalurgical and Material Science Engineering to Computer Science & Engineering Center (New): 75.67 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_00395988200092a4c4c96ef62309afab = L.polyline(
+                [[19.1310263, 72.9159094], [19.1304812, 72.9158741]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_00395988200092a4c4c96ef62309afab.bindTooltip(
+                `<div>
+                     Computer Science & Engineering Center (New) to KReSIT: 60.73 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9ef0bf5ca2f2d2dc52ee77194aab55b0 = L.polyline(
+                [[19.1310263, 72.9159094], [19.131671, 72.9157065]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_9ef0bf5ca2f2d2dc52ee77194aab55b0.bindTooltip(
+                `<div>
+                     Computer Science & Engineering Center (New) to SOM: 74.79 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d82a14920c27211b3f9ce7637cb2137b = L.polyline(
+                [[19.1304812, 72.9158741], [19.1302702, 72.9166629]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_d82a14920c27211b3f9ce7637cb2137b.bindTooltip(
+                `<div>
+                     KReSIT to Department of Physics: 86.12 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_61477f817c91d7b7e9d1bf3ee44fe530 = L.polyline(
+                [[19.1333583, 72.9164305], [19.1334308, 72.9172627]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_61477f817c91d7b7e9d1bf3ee44fe530.bindTooltip(
+                `<div>
+                     Mechanical Engineering Department to Industrial Design Center: 87.80 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_07f988302ace50097ba4401aced0680f = L.polyline(
+                [[19.1334308, 72.9172627], [19.1325552, 72.9175153]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_07f988302ace50097ba4401aced0680f.bindTooltip(
+                `<div>
+                     Industrial Design Center to Viktor Menezes Convention Centre: 100.91 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7ac7d4881874fdff44bd485e65ecb7fe = L.polyline(
+                [[19.1325552, 72.9175153], [19.132146, 72.9177335]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_7ac7d4881874fdff44bd485e65ecb7fe.bindTooltip(
+                `<div>
+                     Viktor Menezes Convention Centre to Centre of Studies in Resources Engineering: 50.95 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_c11aeade564f550c6885a54c4141d966 = L.polyline(
+                [[19.132146, 72.9177335], [19.1317111, 72.9177929]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_c11aeade564f550c6885a54c4141d966.bindTooltip(
+                `<div>
+                     Centre of Studies in Resources Engineering to Earth Science Department: 48.76 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_cc19f6f70e0c4be318081dd34f44951b = L.polyline(
+                [[19.132146, 72.9177335], [19.1323833, 72.9183424]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_cc19f6f70e0c4be318081dd34f44951b.bindTooltip(
+                `<div>
+                     Centre of Studies in Resources Engineering to Environmental Science & Engineering: 69.20 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_944896889a8b3929c8ff05ae34207aa0 = L.polyline(
+                [[19.1323833, 72.9183424], [19.1321659, 72.9185923]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_944896889a8b3929c8ff05ae34207aa0.bindTooltip(
+                `<div>
+                     Environmental Science & Engineering to CAD Centre: 35.69 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0dd9a1011afa71abcc4ac44c7756ee59 = L.polyline(
+                [[19.1323833, 72.9183424], [19.1328417, 72.9184273]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_0dd9a1011afa71abcc4ac44c7756ee59.bindTooltip(
+                `<div>
+                     Environmental Science & Engineering to Rahul Bajaj Technology Innovation Centre: 51.75 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_78fe8c42b32411206e6a7a21f05c6462 = L.polyline(
+                [[19.1321659, 72.9185923], [19.1323513, 72.9191814]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_78fe8c42b32411206e6a7a21f05c6462.bindTooltip(
+                `<div>
+                     CAD Centre to Academic Science Block-2: 65.23 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_489e04913488092c84feea4ed942d49e = L.polyline(
+                [[19.1328417, 72.9184273], [19.1331321, 72.9191015]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_489e04913488092c84feea4ed942d49e.bindTooltip(
+                `<div>
+                     Rahul Bajaj Technology Innovation Centre to Monash Research Centre: 77.84 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2a237846cca7d2b996986cdb74c39e91 = L.polyline(
+                [[19.1323513, 72.9191814], [19.1315278, 72.9192448]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_2a237846cca7d2b996986cdb74c39e91.bindTooltip(
+                `<div>
+                     Academic Science Block-2 to Academic Science Block-1: 91.81 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_46cb5a70738426474a76bfbaa09f74fa = L.polyline(
+                [[19.1315278, 72.9192448], [19.1312107, 72.9185574]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_46cb5a70738426474a76bfbaa09f74fa.bindTooltip(
+                `<div>
+                     Academic Science Block-1 to Aerospace Department: 80.36 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5befdc42212bce9e6000c2ebdaf1599a = L.polyline(
+                [[19.1312107, 72.9185574], [19.1308023, 72.9179551]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_5befdc42212bce9e6000c2ebdaf1599a.bindTooltip(
+                `<div>
+                     Aerospace Department to Department of Bio sciences and Bio engineering: 77.88 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_87634f051204fbd8ec094b09a4a5ac3d = L.polyline(
+                [[19.1308023, 72.9179551], [19.1308047, 72.9175011]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_87634f051204fbd8ec094b09a4a5ac3d.bindTooltip(
+                `<div>
+                     Department of Bio sciences and Bio engineering to Lecture Hall Complex 3: 47.70 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_22fd32b4b2fbb31abedaf0873358a963 = L.polyline(
+                [[19.1308023, 72.9179551], [19.1303318, 72.9180132]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_22fd32b4b2fbb31abedaf0873358a963.bindTooltip(
+                `<div>
+                     Department of Bio sciences and Bio engineering to Department of Chemical Engineering and Chemistry: 52.67 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_253ef7a26ef50cdda7f1fa37f9874123 = L.polyline(
+                [[19.1303318, 72.9180132], [19.130275, 72.9187778]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_253ef7a26ef50cdda7f1fa37f9874123.bindTooltip(
+                `<div>
+                     Department of Chemical Engineering and Chemistry to Department of Energy Sciences and Engineering: 80.57 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_fdccf718e569101f295596e641432265 = L.polyline(
+                [[19.1329094, 72.9152559], [19.1319539, 72.9143687]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_fdccf718e569101f295596e641432265.bindTooltip(
+                `<div>
+                     Nandan Nilekani Main Building to Convocation Hall: 141.33 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_079a27be6bfe7236a2fe10ab8de73e98 = L.polyline(
+                [[19.1319539, 72.9143687], [19.1309083, 72.9142703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_079a27be6bfe7236a2fe10ab8de73e98.bindTooltip(
+                `<div>
+                     Convocation Hall to IIT Hospital: 116.72 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_035dd02645ad9216d471f6d74bcfd913 = L.polyline(
+                [[19.1309083, 72.9142703], [19.1291417, 72.9141323]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_035dd02645ad9216d471f6d74bcfd913.bindTooltip(
+                `<div>
+                     IIT Hospital to Jal Vihar Guest House: 196.97 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9c155c51524e909461f916bf4db2fa12 = L.polyline(
+                [[19.1351755, 72.9157455], [19.1366553, 72.9139163]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_9c155c51524e909461f916bf4db2fa12.bindTooltip(
+                `<div>
+                     Advanced Centre for Research in Electronics to Hostel 1: 252.98 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b9c62412f95946c0bc89101488374e8e = L.polyline(
+                [[19.1366553, 72.9139163], [19.1369983, 72.9126245]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_b9c62412f95946c0bc89101488374e8e.bindTooltip(
+                `<div>
+                     Hostel 1 to Hostel 2: 140.96 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_8aafe67b3228546dad2c1ae50be1e4fd = L.polyline(
+                [[19.1369983, 72.9126245], [19.1366377, 72.9114539]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_8aafe67b3228546dad2c1ae50be1e4fd.bindTooltip(
+                `<div>
+                     Hostel 2 to Hostel 3: 129.34 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_bc98a7eb29bf1e30b519f9aba6d09b02 = L.polyline(
+                [[19.1319539, 72.9143687], [19.1330363, 72.911855]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            poly_line_bc98a7eb29bf1e30b519f9aba6d09b02.bindTooltip(
+                `<div>
+                     Convocation Hall to Hostel 11: 290.21 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bc1f45ca1d087457fb12b9bcdad31274 = L.marker(
+                [19.1329094, 72.9152559],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_bc1f45ca1d087457fb12b9bcdad31274.bindTooltip(
+                `<div>
+                     Nandan Nilekani Main Building
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ec590c7b92889163764ce350df794e70 = L.marker(
+                [19.1340744, 72.9151056],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_ec590c7b92889163764ce350df794e70.bindTooltip(
+                `<div>
+                     Central Library
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e5805e405d65c8aecd6b0fdfb51877fe = L.marker(
+                [19.1319539, 72.9143687],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_e5805e405d65c8aecd6b0fdfb51877fe.bindTooltip(
+                `<div>
+                     Convocation Hall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_76f4bd33d87d9839bff698b00979c905 = L.marker(
+                [19.1310263, 72.9159094],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_76f4bd33d87d9839bff698b00979c905.bindTooltip(
+                `<div>
+                     Computer Science & Engineering Center (New)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4092aabebc5b1c10f0e63d3e7e03f0d6 = L.marker(
+                [19.1319415, 72.9165559],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_4092aabebc5b1c10f0e63d3e7e03f0d6.bindTooltip(
+                `<div>
+                     Department of Electrical engineering
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_030b50e6a6d0e33340d26c22b369f7ca = L.marker(
+                [19.1326612, 72.9165103],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_030b50e6a6d0e33340d26c22b369f7ca.bindTooltip(
+                `<div>
+                     Department of Civil engineering
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ff88e58a0ccc6d016e2f296b89638515 = L.marker(
+                [19.1303318, 72.9180132],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_ff88e58a0ccc6d016e2f296b89638515.bindTooltip(
+                `<div>
+                     Department of Chemical Engineering and Chemistry
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_48cf8956c23be5668c0cbb14817553a9 = L.marker(
+                [19.1333583, 72.9164305],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_48cf8956c23be5668c0cbb14817553a9.bindTooltip(
+                `<div>
+                     Mechanical Engineering Department
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_51533f84f9024457417854d52f49e4e9 = L.marker(
+                [19.1302702, 72.9166629],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_51533f84f9024457417854d52f49e4e9.bindTooltip(
+                `<div>
+                     Department of Physics
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_720be62e2b36413fe1e4d27407e3d4f5 = L.marker(
+                [19.1340743, 72.9158185],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_720be62e2b36413fe1e4d27407e3d4f5.bindTooltip(
+                `<div>
+                     Mathematics Department
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7d6534aa8dc546c654c317021b674465 = L.marker(
+                [19.1312107, 72.9185574],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_7d6534aa8dc546c654c317021b674465.bindTooltip(
+                `<div>
+                     Aerospace Department
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9d1741f6c8fc0bc1413d21ded5438e41 = L.marker(
+                [19.1312162, 72.9166011],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_9d1741f6c8fc0bc1413d21ded5438e41.bindTooltip(
+                `<div>
+                     Department of Metalurgical and Material Science Engineering
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f56b95c6bf7244bbd1ff817059ea6b7c = L.marker(
+                [19.130275, 72.9187778],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_f56b95c6bf7244bbd1ff817059ea6b7c.bindTooltip(
+                `<div>
+                     Department of Energy Sciences and Engineering
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f267b7937c1a5dc5d43a2fac98578d23 = L.marker(
+                [19.1308023, 72.9179551],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_f267b7937c1a5dc5d43a2fac98578d23.bindTooltip(
+                `<div>
+                     Department of Bio sciences and Bio engineering
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9a968b548228f22407c35a8d353c25fc = L.marker(
+                [19.1323833, 72.9183424],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_9a968b548228f22407c35a8d353c25fc.bindTooltip(
+                `<div>
+                     Environmental Science & Engineering
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_be80318ef2b366b7fca69df904096121 = L.marker(
+                [19.1317111, 72.9177929],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_be80318ef2b366b7fca69df904096121.bindTooltip(
+                `<div>
+                     Earth Science Department
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4a60446a7c9fd61b3ba6360471a814c7 = L.marker(
+                [19.1334308, 72.9172627],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_4a60446a7c9fd61b3ba6360471a814c7.bindTooltip(
+                `<div>
+                     Industrial Design Center
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_faa626395bb0f4459dd2534997d3e227 = L.marker(
+                [19.1347301, 72.9157291],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_faa626395bb0f4459dd2534997d3e227.bindTooltip(
+                `<div>
+                     Center for Systems and Control Engineering (SysCon)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dbc5362c345cd2c806c7ed60f655b287 = L.marker(
+                [19.1351755, 72.9157455],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_dbc5362c345cd2c806c7ed60f655b287.bindTooltip(
+                `<div>
+                     Advanced Centre for Research in Electronics
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b5603402c7b4c243b6e84186b48ca13a = L.marker(
+                [19.1321659, 72.9185923],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_b5603402c7b4c243b6e84186b48ca13a.bindTooltip(
+                `<div>
+                     CAD Centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4e4bcad7398f02de92591cd864677322 = L.marker(
+                [19.1304812, 72.9158741],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_4e4bcad7398f02de92591cd864677322.bindTooltip(
+                `<div>
+                     KReSIT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b4a0f71e07ae9d2f8db6d5b3b1fd21c6 = L.marker(
+                [19.131671, 72.9157065],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_b4a0f71e07ae9d2f8db6d5b3b1fd21c6.bindTooltip(
+                `<div>
+                     SOM
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_892a50f16ad0aa8ea5fa098478650d12 = L.marker(
+                [19.132146, 72.9177335],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_892a50f16ad0aa8ea5fa098478650d12.bindTooltip(
+                `<div>
+                     Centre of Studies in Resources Engineering
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c6518a3486babcb31ab9245c0becd339 = L.marker(
+                [19.1315278, 72.9192448],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_c6518a3486babcb31ab9245c0becd339.bindTooltip(
+                `<div>
+                     Academic Science Block-1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d82e5b8a0792c0a0e1ef2b6df360e0cc = L.marker(
+                [19.1323513, 72.9191814],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_d82e5b8a0792c0a0e1ef2b6df360e0cc.bindTooltip(
+                `<div>
+                     Academic Science Block-2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_062703f9afac2fe8c9b90384341c60d2 = L.marker(
+                [19.1340593, 72.9144918],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_062703f9afac2fe8c9b90384341c60d2.bindTooltip(
+                `<div>
+                     Desai Sethi School of Entrepreneurship
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_94ceaa2b328d9a4f4a07f562fdd06c6e = L.marker(
+                [19.1328417, 72.9184273],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_94ceaa2b328d9a4f4a07f562fdd06c6e.bindTooltip(
+                `<div>
+                     Rahul Bajaj Technology Innovation Centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ebe6aec10e93a1df1d03c7f3cbf73dd2 = L.marker(
+                [19.1331321, 72.9191015],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_ebe6aec10e93a1df1d03c7f3cbf73dd2.bindTooltip(
+                `<div>
+                     Monash Research Centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8aa239b16a1a363012a5112d33b94e63 = L.marker(
+                [19.1308047, 72.9175011],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_8aa239b16a1a363012a5112d33b94e63.bindTooltip(
+                `<div>
+                     Lecture Hall Complex 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_602b00959e6aa9a380ceca154307859e = L.marker(
+                [19.1325552, 72.9175153],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_602b00959e6aa9a380ceca154307859e.bindTooltip(
+                `<div>
+                     Viktor Menezes Convention Centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b0942a7e69d336b53bb7cd38d4f355f7 = L.marker(
+                [19.1309083, 72.9142703],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_b0942a7e69d336b53bb7cd38d4f355f7.bindTooltip(
+                `<div>
+                     IIT Hospital
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_25215923149dde4fb56876dbd0f6b986 = L.marker(
+                [19.1291417, 72.9141323],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_25215923149dde4fb56876dbd0f6b986.bindTooltip(
+                `<div>
+                     Jal Vihar Guest House
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2e116a1f6c8f2f7e8063dde46be2adde = L.marker(
+                [19.1366553, 72.9139163],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_2e116a1f6c8f2f7e8063dde46be2adde.bindTooltip(
+                `<div>
+                     Hostel 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f5ccab0684d9d1fa13ed88ad5bfa62a8 = L.marker(
+                [19.1369983, 72.9126245],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_f5ccab0684d9d1fa13ed88ad5bfa62a8.bindTooltip(
+                `<div>
+                     Hostel 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f93ed11d22c3d865b5109fdcb3d82881 = L.marker(
+                [19.1366377, 72.9114539],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_f93ed11d22c3d865b5109fdcb3d82881.bindTooltip(
+                `<div>
+                     Hostel 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3a1ab379ea34ad986f1961a8f1f655a6 = L.marker(
+                [19.1330363, 72.911855],
+                {
+}
+            ).addTo(map_30083ec9c4f0172cee5b675394c3dbe9);
+        
+    
+            marker_3a1ab379ea34ad986f1961a8f1f655a6.bindTooltip(
+                `<div>
+                     Hostel 11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
