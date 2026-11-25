@@ -50,7 +50,8 @@ Wiring-a-New-Campus-at-the-Lowest-Cost
 ├── data/
 │   ├── buildings.csv           # IIT Bombay coordinates used by Tasks 1–4
 │   ├── buildings_template.csv  # CSV header for a new dataset
-│   └── demo_buildings.csv       # Synthetic data for the separate walkthrough
+│   └── demo_buildings.csv      # Synthetic data for the separate walkthrough
+├── results/                    # Saved results from the project run
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
